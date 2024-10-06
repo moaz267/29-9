@@ -1,0 +1,32 @@
+.navbar {
+    background: white;
+    padding-inline: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1em;
+    .navbar_logo {
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: capitalize;
+    }
+}
+
+.navbar ul {
+    display: flex;
+    gap: 2em;
+}
+
+button{
+    cursor: pointer;
+    background: #2A3238;
+    border-radius: 20px ;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    -ms-border-radius: 20px ;
+    -o-border-radius: 20px ;
+    font-size: 18px;
+    font-weight: 500;
+    color: aliceblue;
+    padding: 6.5px 30px;
+}

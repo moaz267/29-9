@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+    background: #f2f1f1;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.home_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.about_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.Contact_page_section {
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    padding-block-start: 3em;
+}
+.container{
+    min-height: 70vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Contact_links {
+    margin-left: 1em;
+    border-radius: 20px;
+    background: #2A3238;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 30px 20px;
+    gap: 1.5em;
+    a{
+        color: rgb(146, 148, 150);
+        font-size: 1.2rem;
+    }
+}
+.Contact_links a.active{
+    color: #fff;
+}
+.Contact_sections {
+    min-height: 70vh;
+    min-width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem
+}
+
+
+.service_page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.notFound {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
